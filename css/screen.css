@@ -20,7 +20,7 @@ h1 {
 header h2 {
   position: absolute;
   top: -5px;
-  left: 70px;
+  left: 58px;
   color: #e50000;
   font-family: 'Playfair Display', serif;
   font-size: 16px;
@@ -77,7 +77,7 @@ p {
 
 .center .share {
     position: absolute;
-    top: 55px;
+    top: 43px;
     left: 27px;
     font-size: 26px;
 }
@@ -249,13 +249,21 @@ text-align: center;
   margin-left: 15px;
 }
 
+/*SHARE starts*/
 .share {
   margin-left: 15px;
   font-size: 20px;
+  margin-top: 10px;
+}
+
+.share p {
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
 
 .caption p {
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 
@@ -263,26 +271,79 @@ text-align: center;
     clear: all;
 }*/
 
+@media screen and (max-width: 960px) {
+  header h2 {
+  left: 135px;
+}
+}
+
+@media screen and (max-width: 910px) {
+  .center .circle-s {
+    margin-right: 20%;
+  }
+
+  header h2 {
+  left: 110px;
+}
+}
+
 @media screen and (max-width: 750px) {
   .navigation {
     top: 37px;
   }
+
+  header h2 {
+  left: 32px;
 }
-@media screen and (max-width: 570px) {
+}
+
+@media screen and (max-width: 740px) {
+  .center .circle-s {
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .navigation li {
-    font-size: 16px;
+    font-size: 17px;
   }
 
-  h1 {
-    font-size: 30px;
-  }
-
-  .about p, .contact p, .form label {
-    font-size: 1.5em;
+.center .circle-s {
+    margin-right: 10%;
+    margin-left: 15%;
   }
 
   .navigation {
-    top: 35px;
+    top: 40px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .navigation li {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .navigation {
+    top: 36px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0px 17px 35px 17px;
+    }
+
+ .flexslider .slides .className img{
+    width: 160px;
+    height: 120px;
+  }
+
+  header h2 {
+  left: 30px;
+  font-size: 12px;
   }
 }
 
@@ -296,7 +357,8 @@ text-align: center;
   }
 }
 
-@media screen and (max-width: 490px) {
+
+@media screen and (max-width: 515px) {
   .navigation li {
     font-size: 12px;
   }
@@ -305,16 +367,67 @@ text-align: center;
     font-size: 22px;
   }
 
-  .about p, .contact p, .form label {
-    font-size: 1.2em;
+  .navigation {
+    top: 34px;
+    right: 50px;
   }
 
-  .navigation {
-    top: 33px;
+  .center .circle-s {
+    margin-right: 10%;
+    margin-left: 12%;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0px 17px 35px 17px;
+    }
+
+  .flexslider .slides .className img{
+    width: 140px;
+    height: 112px;
+   }
+}
+
+@media screen and (max-width: 483px) {
+  .center .circle-s {
+    margin-right: 15%;
+    margin-left: 17%;
+  }
+
+.center .circle-s {
+    width: 100px;
+    height: 100px;
+}
+
+.center .share {
+    top: 28px;
+    left: 16px;
+    font-size: 16px;
+}
+
+.center .circle-g {
+    width: 100px;
+    height: 100px;
+}
+
+.center .gallery {
+    top: 38px;
+    left: 26px;
+    font-size: 16px;
+}
+
+.navigation {
+    right: 45px;
   }
 }
 
 @media screen and (max-width: 443px) {
+  .navigation {
+    top: 33px;
+    right: 20px;
+  }
+
+
   .form input {
     width: 70%;
   }
