@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>Share</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <h1>Perfect.com</h1>
+                <h2>Drop by when you screw up....</h2>
+            </a>
+            <ul class="navigation">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="share.html">Share</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </header>
+
+  <div class="share">
+    <form class="upload" action="http://www.perfect.com/upload.php" method="post">
+        <p>Upload your image in .jpg format:</p>
+        <input type="file" name="user-image" accept="image/*"><br>
+        <input type="submit" value="Upload">
+    </form>
+
+    <form class="caption" action="http://www.perfect.com/captiontext.php">
+        <p>Provide a brief caption for your photo (not required)?</p>
+        <textarea name="caption" cols="30" rows="4">Enter photo caption text...</textarea>
+    </form>
+  </div>
+
+
+
+</div>
+<footer>
+
+</footer>
+<!--<script>
+$(function() {
+  $('.spotlight').mouseover(function() {
+    $(this).siblings('h2').addClass('show');
+  });
+  $('.spotlight').mouseout(function() {
+    $(this).siblings('h2').removeClass('show');
+  });
+});
+</script>-->
+
+</body>
+</html>

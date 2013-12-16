@@ -1,0 +1,325 @@
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #E0FFFF;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  color: #e50000;
+  font-family: 'Playfair Display', serif;
+}
+
+header h2 {
+  position: absolute;
+  top: -5px;
+  left: 70px;
+  color: #e50000;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.navigation {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  font-style: normal;
+}
+
+header {
+  padding-top: 15px;
+}
+header li, header ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+header li {
+  display: inline-block;
+  padding: 10px 5px;
+  font-size: 20px;
+  float: right;
+  vertical-align: middle;
+}
+
+.flexslider .slides .className img{
+    width: 200px;
+    height: 150px;
+}
+
+p {
+    font-size: 18px;
+    /*font-family: 'Playfair Display', serif;*/
+    margin: 0px 17px 35px 17px;
+
+}
+
+.center .circle-s {
+    float: left;
+    width: 150px;
+    height: 150px;
+    /*margin: 10px;*/
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-right: 25%;
+    position: relative;
+    background-color: #FFF8DC;
+}
+
+.center .share {
+    position: absolute;
+    top: 55px;
+    left: 27px;
+    font-size: 26px;
+}
+
+.center .circle-g {
+    float: left;
+    width: 150px;
+    /*margin: 10px;*/
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    background-color: #FFF8DC;
+}
+
+.center .gallery {
+    position: absolute;
+    top: 55px;
+    left: 35px;
+    font-size: 26px;
+}
+/*end of Home/Index*/
+
+/*Gallery*/
+.galhead {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 130px;
+    margin-top: 90px;
+}
+
+.galcircs {
+text-align: center;
+}
+
+.galcircs ul {
+    margin: 0 auto;
+}
+
+.galcircs li {
+    list-style: none;
+    margin-bottom: 200px;
+    display: inline-block;
+
+
+}
+
+.galcircs .circle-dl {
+    /*float: left;*/
+    /*display: inline-block;*/
+    width: 175px;
+    height: 175px;
+    /*margin: 10px;*/
+    border: 1px solid black;
+    border-radius: 50%;
+    /*margin-left: 2%;*/
+    margin-right: 3%;
+    position: relative;
+    background-color: #FFF8DC;
+}
+
+ .galcircs .dom-link {
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    font-size: 26px;
+}
+
+.galcircs .circle-w {
+    /*float: left;*/
+    /*display: inline-block;*/
+    width: 175px;
+    height: 175px;
+    /*margin: 10px;*/
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    background-color: #FFF8DC;
+}
+
+.galcircs .work-link {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    font-size: 26px;
+}
+
+.galcircs .circle-ft {
+    /*float: left;*/
+    /*display: inline-block;*/
+    width: 175px;
+    height: 175px;
+    /*margin: 10px;*/
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 3%;
+   /*margin-right: 2%;*/
+    position: relative;
+    background-color: #FFF8DC;
+}
+
+.galcircs .ft-link {
+    position: absolute;
+    top: 65px;
+    left: 34px;
+    font-size: 26px;
+    clear: all;
+}
+
+#domestic-life,#work,#free-time {
+    font-family: 'Playfair Display', serif;
+}
+
+.fancy-test li {
+    float: left;
+    margin: 3.5%;
+    list-style: none;
+    /*display: inline-block;*/
+}
+
+.fancy-test li img {
+    height: 220px;
+    width: 220px;
+}
+
+#work,#free-time {
+    clear: left;
+}
+
+
+/*END OF GALLERY*/
+
+/*ABOUT STARTS*/
+.about p {
+  font-size: 2em;
+  margin-top: 1em;
+  margin: 35px;
+}
+
+.contact p {
+  margin-left: 15px;
+  font-size: 2em;
+  margin-top: 20px;
+}
+.contact p .email-kristin {
+  color: #009ACD;
+}
+
+.form label {
+  font-weight: normal;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.form input {
+  margin-left: 15px;
+  width: 50%;
+}
+
+.form #exampleInputZip1 {
+  width: 30%;
+}
+
+.form .btn {
+  color: #009ACD;
+  margin-left: 15px;
+}
+
+.share {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.caption p {
+    margin-top: 15px;
+}
+
+
+/*.clear {
+    clear: all;
+}*/
+
+@media screen and (max-width: 750px) {
+  .navigation {
+    top: 37px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .navigation li {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .about p, .contact p, .form label {
+    font-size: 1.5em;
+  }
+
+  .navigation {
+    top: 35px;
+  }
+}
+
+@media screen and (max-width: 533px) {
+  .form input {
+    width: 60%;
+  }
+
+  .form #exampleInputZip1 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .navigation li {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .about p, .contact p, .form label {
+    font-size: 1.2em;
+  }
+
+  .navigation {
+    top: 33px;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .form input {
+    width: 70%;
+  }
+
+  .form #exampleInputZip1 {
+    width: 45%;
+  }
+}

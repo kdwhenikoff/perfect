@@ -1,0 +1,64 @@
+h1 {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  color: #969696;
+}
+h1:hover {
+  color: white;
+}
+
+.navigation {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+}
+
+header {
+  padding-top: 15px;
+}
+header li, header ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+header li {
+  display: inline-block;
+  padding: 10px 5px;
+  font-size: 20px;
+  float: right;
+  vertical-align: middle;
+}
+
+.images ul {
+  padding: 0px;
+}
+.images li {
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+  list-style: none;
+}
+.images .img-title {
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  color: white;
+  display: none;
+}
+
+.spotlight {
+  border-radius: 5px;
+  border: 6px solid white;
+}
+
+.show {
+  display: block;
+}
+
+.about p {
+  font-size: 50px;
+  background: blue;
+}

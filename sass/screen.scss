@@ -1,0 +1,143 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+h1 {
+    display: inline-block;
+    position: relative;
+    top:0px;
+    left: 0px;
+    padding: 0px;
+    color: rgb(150,150,150);
+
+    &:hover {
+        color:white;
+    }
+}
+
+.navigation {
+    position: absolute;
+    top:40px;
+    right:60px;
+}
+
+header {
+    padding-top: 15px;
+
+    li, ul {
+        margin: 0px;
+        padding: 0px;
+        text-align: right;
+    }
+    li {
+        display: inline-block;
+        padding: 10px 5px;
+        font-size: 20px;
+        float:right;
+        vertical-align: middle;
+    }
+}
+
+.images {
+    ul {
+        padding: 0px;
+    }
+    li {
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    }
+
+    img {
+    }
+
+    .img-title {
+       position: absolute;
+        top: 0px;
+        left: 25px;
+        color: white;
+        display: none;
+    }
+}
+
+.spotlight {
+    border-radius: 5px;
+    border: 6px solid white;
+}
+
+.show {
+    display: block;
+}
+
+.about {
+    p {
+        font-size: 2em;
+        margin-top: 1em;
+        margin: 35px;
+    }
+}
+
+.contact {
+    p {
+        margin-left: 30px;
+        font-size: 2em;
+        margin-top: 20px;
+
+        .email-us {
+            color: green;
+        }
+    }
+}
+
+.form {
+    label {
+        font-weight: normal;
+        font-size: 2em;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    input {
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    .btn {
+        color: green;
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navigation {
+        top: 37px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .navigation li {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .about p,.contact p,.form label {
+        font-size: 1.5em;
+    }
+    .navigation {
+        top: 35px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .navigation li {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .about p,.contact p,.form label {
+        font-size: 1.2em;
+    }
+    .navigation {
+        top: 33px;
+    }
+}

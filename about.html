@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <h1>Perfect.com</h1>
+                <h2>Drop by when you screw up....</h2>
+            </a>
+            <ul class="navigation">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Share</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="about">
+       <p>Perfect showcases the less than perfect or "human" results often omitted from the glossy, orderly, nailed-it, socially-networked world of the web.  We don't see the dumpster of mistakes before the final, perfect photo or polished write up.  But, there is beauty -- and certainly humor -- in bad results.</p>
+       <p>The goal is doing, not being paralyzed by the fear of a bad result.  So, we celebrate bad doing.  Besides, a bad result is often a more interesting story than perfection.  The ability to laugh at oneself is an important life skill; and sharing these moments increases the fun (and the lesson).</p>
+   </div>
+
+</div>
+<footer>
+
+</footer>
+<script>
+$(function() {
+  $('.spotlight').mouseover(function() {
+    $(this).siblings('h2').addClass('show');
+  });
+  $('.spotlight').mouseout(function() {
+    $(this).siblings('h2').removeClass('show');
+  });
+});
+</script>
+
+</body>
+</html>

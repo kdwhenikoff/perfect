@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <title>Perfect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!--flexslider decline after slate-bootstrap remedied-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/slate-bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+
+    <script src="js/jquery.flexslider.js"></script>
+<script type="text/javascript"> $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 5
+  });
+});
+   </script>
+</head>
+
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/css/ie.css" media="screen, projection">
+    <![endif]-->
+
+<body>
+<div class="container">
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <h1>Perfect.com</h1>
+                <h2>Drop by when you screw up....</h2>
+            </a>
+            <ul class="navigation">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="share.html">Share</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </header>
+<br>
+
+<!--change images-->
+<div class="container">
+    <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <span class="className"><img src="images/slides/slide1.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide2.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide3.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide4.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide5.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide6.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide7.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide8.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide9.jpg" /></span>
+          </li>
+          <li>
+            <span class="className"><img src="images/slides/slide10.jpg" /></span>
+          </li>
+        </ul>
+    </div>
+</div>
+
+<p>This site showcases "not-so-perfect" (or NSP) results in the categories <i>Domestic Life</i>, <i>Work</i>, and <i>Free-Time</i>.  <a href="share.html">Share</a> images of your NSP outcomes.  Take comfort in and smile knowingly at others' NSP moments featured in the <a href="gallery.html">Gallery</a>.  <i>One rule</i>:  post <i>only your</i> NSP result(s) or work, and nothing that would hurt someone else's feelings.</p>
+
+<div class="center">
+    <p class="circle-s"><a class="share" href="share.html">Share</a></p>
+    <p class="circle-g"><a class="gallery" href="gallery.html">Gallery</a></p>
+</div>
+<footer>
+
+</footer>
+<script>
+$(function() {
+  $('.spotlight').mouseover(function() {
+    $(this).siblings('h2').addClass('show');
+  });
+  $('.spotlight').mouseout(function() {
+    $(this).siblings('h2').removeClass('show');
+  });
+});
+</script>
+
+</body>
+</html>
